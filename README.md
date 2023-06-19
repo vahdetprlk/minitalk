@@ -1,2 +1,2 @@
-# mini_talk
+# minitalk
 A small data exchange program using UNIX signals.
