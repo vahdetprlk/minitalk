@@ -6,7 +6,7 @@
 /*   By: vparlak <vparlak@student.42kocaeli.com.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/12 16:37:30 by vparlak           #+#    #+#             */
-/*   Updated: 2023/06/20 03:19:40 by vparlak          ###   ########.fr       */
+/*   Updated: 2023/06/20 05:54:32 by vparlak          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,8 +72,6 @@ char	*ft_check_specifier(const char *format, va_list args, int *count)
 	}
 	return ((char *)format);
 }
-
-
 
 int	ft_printf(const char *format, ...)
 {
